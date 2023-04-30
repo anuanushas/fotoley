@@ -98,6 +98,7 @@ const CatalogViewer = ({ images }) => {
 
                 </Grid>
                 <Grid item xs={12} sm={4}>
+
                     <Grid item xs={12} sx={{ display: 'flex', justifyContent: 'center' }}>
                         <IconButton onClick={handlePlayPause} >
                             {slideshow ? <PauseIcon sx={{ fontSize: '100px', color: "#25beda" }} /> : <PlayArrowIcon sx={{ fontSize: '100px', color: "#25beda" }} />}
